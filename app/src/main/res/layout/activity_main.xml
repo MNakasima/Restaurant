@@ -8,6 +8,9 @@
     android:background="@color/grey">
 
     <GridView
+        android:columnWidth="63pt"
+        android:numColumns="auto_fit"
+        android:id="@+id/gvListFood"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
